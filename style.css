@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background: #1c1c1c;   
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -12,6 +12,8 @@ body{
 	border:1px solid #333;
 	border-radius:10px;
 	background:#eee;
+    user-select: none;
+    background: linear-gradient(to bottom, #2c2c2c, #1c1c1c);
     /* display: flex; */
     /*flex-wrap: wrap;
     justify-content: flex-start;
@@ -33,7 +35,7 @@ body{
 	font-size:2vw;
 	text-decoration:none;
 	color:inherit;
-	background:rgba(255,255,255,0.7);
+	background: linear-gradient(to bottom, #3f3f3f, #2c2c2c);   
 	transition:all 0.3s ease-in-out;
     cursor: pointer;
     user-select: none;
@@ -45,9 +47,11 @@ body{
     display: block;
     width: 89%;
     height: 100px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.2em;
     font-size: 40px;
+    border: none;
+    background-color: transparent;
 }
 
 .icon{
